@@ -9,6 +9,11 @@ def sel_sort(list2):
         list2[min],list2[i]=list2[i],list2[min]
     return(list2)
 
+a=list()
 
-a=[8,7,13,1,4,-9]
+inputs=int(input("No of elments to add:"))
+
+for _ in range(inputs):
+    a.append(int(input()))
+
 print(sel_sort(a))
