@@ -10,5 +10,12 @@ def insert_sort(list3):
     return(list3)
 
 
-a=[15,6,13,22,3,52,2]
+a=list()
+
+inputs=int(input("No of elments to add:"))
+
+for _ in range(inputs):
+    a.append(int(input()))
+
+#print(a)
 print(insert_sort(a))
